@@ -17,3 +17,9 @@ body{
 	font-family: emulogic;	
 	font-size: 0;
 }
+#container{
+	width: 750px;
+	height: 500px;
+	position: relative;
+	margin: 50px auto;
+}

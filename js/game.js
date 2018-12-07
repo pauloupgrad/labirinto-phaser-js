@@ -1,4 +1,4 @@
-var game = new Phaser.Game(750,500,Phaser.CANVAS);
+var game = new Phaser.Game(750,500,Phaser.CANVAS,'container');
 
 	game.state.add('boot',bootState);
 	game.state.add('load',loadState);
@@ -8,3 +8,4 @@ var game = new Phaser.Game(750,500,Phaser.CANVAS);
 	game.state.add('end',endState);
 	
 	game.state.start('boot');
+	
