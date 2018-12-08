@@ -1,6 +1,6 @@
 var menuState = {
     create: function(){
-        this.music = game.add.audio('music');        
+        this.music = game.add.audio('music');              
         this.music.loop = true;
         this.music.volume = .5;
         this.music.play();
